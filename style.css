@@ -1,0 +1,115 @@
+#root {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #2b283a;
+  box-sizing: border-box;
+  user-select: none;
+  margin: 0;
+}
+
+body {
+  /* margin: 45px 0; */
+}
+
+header {
+  background-color: #5f29a3;
+  padding: 45px 0;
+}
+
+
+h1 {
+  color: whitesmoke;
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+}
+
+h3 {
+  color: #d0aaff;
+  font-size: 20px;
+  margin: 0;
+}
+
+section {
+  padding: 45px 0;
+}
+
+.sneaker-section__image {
+  width: 100%;
+}
+
+.crypto-section {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+.container {
+  width: 620px;
+  margin: 0 auto;
+}
+
+.crypto-section__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.crypto-section__image {
+  width: 300px;
+  border-radius: 5px;
+}
+
+a {
+  text-decoration: underline dotted;
+  color: #ef5839;
+}
+
+a:hover,
+a:active {
+  color: #d4b44c;
+}
+
+p {
+  line-height: 24px;
+}
+
+footer {
+  color: #5f29a3;
+  text-align: center;
+  padding: 40px 0;
+}
+
+.button {
+  padding: 10px 19px;
+  border-radius: 5px;
+  font-weight: 500;
+  text-decoration: none;
+  /* We can not set the margin top/bottom of inline elements, we have to change to inline-block */
+  display: inline-block;
+  margin: 10px 10px 10px 0;
+}
+
+.button:hover, button:active {
+  background-color: #f3e885;
+  color: #2b283a;
+}
+
+.nft-button {
+  background-color: #5f29a3;
+  color: whitesmoke;
+}
+
+
+.info-button, .contact-button {
+  background-color: #f0e0ff;
+  color: #5f29a3
+}
+
+.about-button {
+  background-color: whitesmoke;
+  color: #5f29a3;
+}
